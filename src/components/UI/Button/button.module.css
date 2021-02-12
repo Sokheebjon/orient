@@ -1,0 +1,143 @@
+.vector {
+    background: #000;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.chat {
+    max-width: 136px;
+    min-width: 110px;
+    height: auto;
+    background: #DB2727;
+    padding: 8px 0px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 12px #D02525;
+    border: none;
+    color: #ffffff;
+    font-size: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.ndc {
+    max-width: 136px;
+    min-width: 110px;
+    background: #8BA428;
+    padding: 8px 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 12px #8BA428;
+    border: none;
+    color: #ffffff;
+    font-size: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.lang {
+    border: none;
+    background: none;
+    color: #71B6DD;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.addUser {
+    border: none;
+    background: #15C626;
+    padding: 8px 25px;
+    border-radius: 5px;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.add {
+    background: #7075FF;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 8px 15px;
+    height: 38px;
+}
+
+.remove {
+    background: #E32525;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 8px 15px;
+    height: 38px;
+}
+
+.save {
+    background: #7075FF;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 8px 25px;
+}
+
+.cancel {
+    background: #E32525;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 8px 25px;
+    margin: 10px;
+}
+
+.submit {
+    border: none;
+    width: 216px;
+    background: #7075FF;
+    font-size: 12px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 30px 22px;
+}
+
+.activity {
+    max-width: 136px;
+    min-width: 110px;
+    background: #15C626;
+    padding: 8px 0px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 12px #8BA428;
+    border: none;
+    color: #ffffff;
+    font-size: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.search {
+    background: #7075FF;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 35px;
+    align-items: center;
+    text-align: center;
+}

@@ -1,0 +1,21 @@
+.main {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.main p {
+    font-size: 22px;
+    line-height: 22px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.TakeAction {
+    display: flex;
+    justify-content: space-around;
+}

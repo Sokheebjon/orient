@@ -1,0 +1,200 @@
+* {
+
+
+}
+
+.main {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.main p {
+    font-size: 22px;
+    line-height: 22px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.colorAutocomplete * {
+    color: #ffffff !important;
+}
+
+.autoComplete {
+    width: 268px;
+    height: 31px;
+    margin-bottom: 20px;
+    margin-right: 27px;
+}
+
+.label {
+    font-size: 12px !important;
+    color: #fff !important;
+}
+.input {
+    font-size: 12px !important;
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+.filter {
+    display: flex;
+}
+
+.action {
+    display: flex;
+    justify-content: space-around;
+}
+.action1 {
+    text-align: right;
+}
+
+.action-modal {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*********************  Modal  ************************/
+.modal {
+    background: radial-gradient(92.74% 92.74% at 50% 7.26%, #161616 0%, #000000 100%);
+    padding: 20px;
+    color: #fff;
+    width: 75%;
+    --borderWidth: 1px;
+    position: relative;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.modal p {
+    font-size: 22px;
+    line-height: 27px;
+    font-family: Montserrat, sans-serif;
+}
+
+.form {
+    width: 100%;
+}
+
+.modal:after, .tableModal:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #4B74FF, #000, #fff);
+    border-radius: calc(10 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedGradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+}
+
+.tableModal {
+    background: radial-gradient(92.74% 92.74% at 50% 7.26%, #161616 0%, #000000 100%);
+    padding: 23px;
+    color: #fff;
+    width: 35%;
+    --borderWidth: 1px;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 32%;
+    min-height: 118px;
+}
+
+.tableModal h3 {
+    font-size: 22px;
+    margin-top: -10px;
+}
+
+.modalData {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.modalData img {
+    margin-right: 5px;
+}
+
+.close {
+    position: absolute;
+    top: 23px;
+    right: 23px;
+    cursor: pointer;
+}
+
+.modalContacts img {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.modalContacts {
+    position: absolute;
+    right: 20px;
+}
+
+.logo {
+    position: absolute;
+    right: 0;
+    bottom: -5%;
+    overflow-x: hidden;
+}
+
+.hr {
+    opacity: 0.5;
+    border: 1px solid #E0F8FF;
+    color: #E0F8FF;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.gridContainer {
+    /*margin: 0 !important;*/
+}
+
+.grid {
+    position: relative;
+    border: 2px solid #FFFFFF;
+    width: auto;
+    height: auto;
+    padding: 21px 10px;
+    margin-right: 26px;
+    margin-bottom: 17px;
+    border-radius: 5px;
+}
+
+.grid p {
+    font-size: 11px;
+    opacity: 0.5;
+    margin: 0 0 5px 0;
+}
+
+.grid h4 {
+    margin: 5px 0 15px 0;
+}
+
+.userData {
+    display: flex;
+}
+
+.userData img {
+    margin-right: 5px;
+}
+@keyframes animatedGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

@@ -1,0 +1,49 @@
+.main {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.main p {
+    font-size: 22px;
+    line-height: 22px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tableType {
+    display: flex;
+}
+
+.parent {
+    width: auto;
+    margin-right: 2%;
+    border: 2px solid #545bff;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.child {
+    width: 80%;
+    border: 2px solid #545bff;
+    padding: 5px;
+    border-radius: 7px;
+    height: 5%;
+}
+
+.divider {
+    min-height: 100%;
+    opacity: 0.6;
+    border: 1px solid #E0F8FF;
+    margin-left: -1%;
+    margin-right: 1%;
+}
+
+.TakeAction {
+    display: flex;
+    justify-content: space-evenly;
+}

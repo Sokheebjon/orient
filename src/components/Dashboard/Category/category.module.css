@@ -1,0 +1,54 @@
+*:focus {
+    outline: none;
+}
+
+.scroll {
+    margin-top: -10px;
+    width: 101%;
+    height: auto;
+    margin-left: -5px;
+}
+
+.scrollbar {
+    color: #fff;
+    padding: 15px;
+    font-size: 12px;
+    margin-right: 7px;
+    backdrop-filter: blur(15px);
+    background: rgba(0, 0, 0, 0.5);
+    width: 279px;
+    height: 135px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.back {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-bottom-left-radius: 15px;
+}
+
+.back:hover {
+    transform: scale(1) !important;
+}
+
+.scrollbar img {
+    margin-left: auto;
+    display: flex;
+}
+
+.scrollbar img:hover {
+    transform: scale(1.07);
+    transition: transform 0.3s ease;
+}
+
+.scrollbar h1 {
+    font-size: 40px;
+    margin: 25px 0 -10px 0;
+}
+
+.scrollbar p {
+    margin-left: 5px;
+}

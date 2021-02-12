@@ -1,0 +1,47 @@
+.main {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.main p {
+    font-size: 22px;
+    line-height: 22px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.applicationNumber {
+    background: #3F85EE;
+    border-radius: 3px;
+    font-size: 10px!important;
+    margin: 0;
+}
+
+.contractStatus{
+    background: #2AD43B;
+    border-radius: 3px;
+    font-size: 10px!important;
+    margin: 0;
+}
+
+.paymentStatus {
+    background: #7075FF;
+    border-radius: 3px;
+    font-size: 10px!important;
+    margin: 0;
+    width: 85px;
+}
+
+.action {
+    display: flex;
+    justify-content: space-around;
+}
+
+.number {
+    font-size: 10px!important;
+}

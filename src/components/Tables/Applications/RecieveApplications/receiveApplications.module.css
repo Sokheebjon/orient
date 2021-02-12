@@ -1,0 +1,235 @@
+.main {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.main .top {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+
+.label {
+    font-size: 12px !important;
+    color: #fff !important;
+}
+
+
+.commercialOffer, .contract {
+    background-color: #67A1F8;
+    width: 28px;
+    height: 20px;
+    border-radius: 3px;
+    margin: auto;
+    padding-top: 5px;
+    align-items: center;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.contract {
+    background-color: #94CF15 !important;
+}
+
+.deadlineOn, .deadlineOff {
+    width: 85px;
+    height: 20px;
+    border-radius: 3px;
+    margin: 0;
+    padding-top: 5px;
+    color: #00FF0F;
+}
+
+.statusOn {
+    width: auto;
+    height: 20px;
+    border-radius: 3px;
+    background: #2AD43B;
+    margin: 0;
+    padding-top: 5px;
+}
+
+.deadlineOff {
+    background-color: #E32525 !important;
+}
+
+.grid {
+    margin-bottom: 10px !important;
+}
+
+/*********************  Modal  ************************/
+
+.modal {
+    background: radial-gradient(92.74% 92.74% at 50% 7.26%, #161616 0%, #000000 100%);
+    padding: 20px;
+    color: #fff;
+    width: 75%;
+    --borderWidth: 1px;
+    position: relative;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.modal p {
+    font-size: 22px;
+    line-height: 27px;
+    font-family: Montserrat, sans-serif;
+}
+
+.form {
+    width: 100%;
+}
+
+.modal:after, .tableModal:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #4B74FF, #000, #fff);
+    border-radius: calc(10 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedGradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+}
+
+.tableModal * {
+    color: #fff !important;
+}
+
+.tableModal {
+    background: radial-gradient(92.74% 92.74% at 50% 7.26%, #161616 0%, #000000 100%);
+    padding: 23px;
+    color: #fff;
+    width: 35%;
+    --borderWidth: 1px;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 32%;
+}
+
+.userImage {
+    border-radius: 50%;
+    width: 80%;
+    height: auto;
+    /*height: auto;*/
+}
+
+.tableModal h3 {
+    font-size: 22px;
+    margin-top: -10px;
+}
+
+.modalData {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+.modalData .userImage {
+    margin: auto;
+}
+
+.modalInfo {
+    display: flex;
+}
+
+.modalInfo img {
+    margin-right: 8px;
+}
+
+.emailText {
+    opacity: .5;
+    margin-right: 5px;
+}
+
+.close {
+    position: absolute;
+    top: 23px;
+    right: 23px;
+    cursor: pointer;
+}
+
+.modalContacts img {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.modalContacts {
+    position: absolute;
+    right: 20px;
+    top: 50px;
+}
+
+.logo {
+    position: absolute;
+    right: 0;
+    bottom: -5%;
+    overflow-x: hidden;
+}
+
+.moreButton {
+    transform: rotate(90deg);
+}
+
+.moreDetails {
+    padding: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    text-align: left;
+    font-size: 12px;
+}
+
+.badge {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.info {
+    text-align: left;
+    font-size: 15px;
+}
+
+.add {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add:nth-child(1) * {
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.action {
+    text-align: right;
+}
+
+.br {
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    border: none;
+    opacity: 0.7;
+}
+
+@keyframes animatedGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

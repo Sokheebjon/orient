@@ -1,0 +1,81 @@
+.main {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.main p {
+    font-size: 22px;
+    line-height: 22px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.TakeAction {
+    display: flex;
+    justify-content: space-around;
+}
+
+.checkbox {
+    color: red!important;
+}
+
+.table {
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 10px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.thead {
+    background: #545bff;
+}
+
+.th {
+    padding: 15px;
+    margin: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.th:last-child {
+    border-right: none;
+}
+
+.td {
+    margin: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 10px;
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
+
+.tbody {
+    background: #2B2B2B;
+}
+
+.tr:hover {
+    background: #3E3E3E;
+    cursor: pointer;
+}
+
+.tr:focus {
+    background: #3E3E3E;
+}
+
+.sort {
+    width: 12px;
+    float: right;
+    opacity: 0.7;
+    margin-top: 2px;
+}

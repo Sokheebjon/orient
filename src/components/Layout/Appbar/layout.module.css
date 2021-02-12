@@ -1,0 +1,258 @@
+*:focus {
+    outline: none;
+}
+
+.vector {
+    margin-top: -10px;
+    display: flex;
+    margin-left: -50px;
+}
+
+.scroll {
+    margin-top: -10px;
+    width: 45%;
+}
+
+.scrollbar {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    font-size: 12px;
+}
+
+.scrollbar p {
+    margin-left: 5px;
+}
+
+.arrow {
+    cursor: pointer;
+}
+
+.arrow img {
+    /*filter: brightness(0);*/
+}
+
+.sun {
+    display: flex;
+    align-items: center;
+    margin-top: -15px;
+    margin-right: 10px;
+}
+
+.mainOpen {
+    display: flex;
+    align-items: center;
+    padding: 16px 0 10px 40px;
+}
+
+.mainOpen img {
+    margin-right: 10px;
+}
+
+.mainClose {
+    padding: 10px 0 0 30px;
+}
+
+.mainClose:hover .mainOpen {
+    display: flex;
+    align-items: center;
+    padding: 16px 0 10px 40px;
+    position: fixed;
+    z-index: 1;
+}
+
+
+.mainClose img {
+    display: block;
+    padding: 2px;
+    margin-left: -12px;
+}
+
+.mainClose img:nth-child(2) {
+    margin-left: -24px;
+    width: 80px;
+}
+
+.ows {
+    font-family: Orbitron, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    top: 60px;
+    left: 42px;
+    letter-spacing: 0.09em;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: #fff;
+    border-top: 1px solid #E0F8FF;
+    border-bottom: 1px solid #E0F8FF;
+    margin: 20px 0 0 0;
+    cursor: pointer;
+}
+
+.user h5 {
+    margin-left: 10px;
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.user p {
+    font-size: 9px;
+    margin: -15px 0 0 10px;
+    opacity: 0.5;
+}
+
+.lang {
+    margin: 19px 0 5px 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+.toolsOpen {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 12px;
+    padding: 0 0 0 20px;
+    cursor: pointer;
+    border-left: 2px solid transparent;
+    height: 31px;
+    margin: 0 0 0 0;
+}
+
+
+.toolsOpen img {
+    width: 16px;
+}
+
+.activeSide {
+    background: linear-gradient(90deg, rgba(84, 91, 255, 0.5) 1.53%, rgba(84, 91, 255, 0) 98.47%);
+    border-left: 2px solid #545BFF !important;
+}
+
+.toolsOpen p {
+    margin-left: 10px;
+}
+
+.toolsClose {
+    border-left: 2px solid transparent;
+    height: 31px;
+    display: flex;
+    cursor: pointer;
+}
+
+.toolsClose img {
+    display: block;
+    margin-left: 37px;
+    width: 15px;
+}
+
+.anchor {
+    margin: 8px 13px 0 auto;
+}
+
+.nested {
+    border-left: 2px solid transparent;
+    display: flex;
+    margin: 4px 0 0 20px;
+    cursor: pointer;
+    padding: 0 0 0 28px;
+    height: 31px;
+    align-items: center;
+    font-size: 12px;
+}
+
+.nested img {
+    margin-right: 10px;
+}
+
+.nestedActive {
+    background: linear-gradient(90deg, rgba(13, 255, 22, 0.5) 1.53%, rgba(84, 91, 255, 0) 98.47%);
+    border-left: 2px solid #0DFF16;
+}
+
+.badge {
+    background-color: #E32525;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin: 0 20px 0 auto;
+    font-size: 9px;
+}
+
+.badge:nth-child(1) {
+    padding: 0 !important;
+}
+
+
+.tableModal {
+    background: radial-gradient(92.74% 92.74% at 50% 7.26%, #161616 0%, #000000 100%);
+    padding: 23px;
+    color: #fff;
+    width: 25%;
+    --borderWidth: 1px;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-left: 71%;
+}
+
+.tableModal h3 {
+    font-size: 22px;
+    margin-top: -10px;
+}
+
+/*.tableModal:after {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    top: calc(-1 * var(--borderWidth));*/
+/*    left: calc(-1 * var(--borderWidth));*/
+/*    height: calc(100% + var(--borderWidth) * 2);*/
+/*    width: calc(100% + var(--borderWidth) * 2);*/
+/*    background: linear-gradient(60deg, #4B74FF, #000, #fff);*/
+/*    border-radius: calc(10 * var(--borderWidth));*/
+/*    z-index: -1;*/
+/*    animation: animatedgradient 3s ease alternate infinite;*/
+/*    background-size: 300% 300%;*/
+/*}*/
+
+.tableModal p {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tableModal img {
+    margin-right: 10px;
+    width: 20px;
+}
+
+.close {
+    position: absolute;
+    top: 23px;
+    right: 23px;
+    cursor: pointer;
+}
+
+@media (min-width: 1600px) {
+    .scroll {
+        width: 60%;
+    }
+}
+
+@keyframes animatedgradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

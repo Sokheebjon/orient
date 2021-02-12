@@ -1,0 +1,17 @@
+
+.pagination {
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff!important;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.root *{
+    color: #ffffff!important;
+}
+
+.formControl *{
+    color: #ffffff!important;
+}
